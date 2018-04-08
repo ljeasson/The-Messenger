@@ -25,4 +25,19 @@ public class MenuController : MonoBehaviour {
 		SceneManager.LoadScene (level);
 	}
 
+
+	void Start ()
+	{
+		Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;
+	}
+
+	void Update ()
+	{
+		if (Input.GetKeyDown (KeyCode.Escape)) 
+		{
+			Application.Quit ();
+		}
+	}
+
 }
