@@ -46,10 +46,5 @@ public class PlayerStatus : MonoBehaviour {
 			playerHealth += 10;
 			timeLeft += 25;
 		}
-
-		// Go back to Main Menu
-		if (Input.GetKeyDown (KeyCode.Escape)) {
-			SceneManager.LoadScene (0);
-		}
 	}		
 }
