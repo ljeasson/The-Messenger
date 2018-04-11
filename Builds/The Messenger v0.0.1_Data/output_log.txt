@@ -1,0 +1,55 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   20.19.15.4549
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+Platform assembly: C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ljeas\Documents\_Unity_Game_Projects\The Messenger\Builds\The Messenger v0.0.1_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.557834 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2464 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.165858 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 411.
+Total: 0.293116 ms (FindLiveObjects: 0.038882 ms CreateObjectMapping: 0.028200 ms MarkObjects: 0.216632 ms  DeleteObjects: 0.005127 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.947715 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 361.
+Total: 0.413183 ms (FindLiveObjects: 0.027346 ms CreateObjectMapping: 0.019655 ms MarkObjects: 0.229024 ms  DeleteObjects: 0.135876 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.731509 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 412.
+Total: 0.293116 ms (FindLiveObjects: 0.039737 ms CreateObjectMapping: 0.028628 ms MarkObjects: 0.219196 ms  DeleteObjects: 0.004700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.933614 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 361.
+Total: 0.413183 ms (FindLiveObjects: 0.033755 ms CreateObjectMapping: 0.022218 ms MarkObjects: 0.224323 ms  DeleteObjects: 0.132030 ms)
+

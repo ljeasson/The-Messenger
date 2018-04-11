@@ -13,8 +13,8 @@ public class PauseController : MonoBehaviour {
 	void Start ()
 	{
 		// Let mouse be visible on instantiation
-		Cursor.visible = true;
-		Cursor.lockState = CursorLockMode.None;
+		//Cursor.visible = true;
+		//Cursor.lockState = CursorLockMode.None;
 	}
 
 	void Update () 
@@ -61,6 +61,20 @@ public class PauseController : MonoBehaviour {
 		
 	public void Quit ()
 	{
+		//Disable Pause Menu and enable UI 
+		menu.gameObject.SetActive (false);
+		UI.gameObject.SetActive (true);
+
+		// Start time
+		Time.timeScale = 1;
+
+		// Enable First Person Controller
+		player.GetComponent<FirstPersonController> ().enabled = true;
+
+		// Let Mouse pointer be visible
+		Cursor.visible = true;
+
+		// Load main menu
 		SceneManager.LoadScene (0);
 	}
 }

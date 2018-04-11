@@ -29,8 +29,8 @@ public class MenuController : MonoBehaviour {
 	void Start ()
 	{
 		// Enables mouse cursor in Menu scene
-		Cursor.visible = true;
-		Cursor.lockState = CursorLockMode.None;
+		//Cursor.visible = true;
+		//Cursor.lockState = CursorLockMode.None;
 	}
 		
 }
