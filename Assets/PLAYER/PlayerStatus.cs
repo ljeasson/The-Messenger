@@ -18,6 +18,10 @@ public class PlayerStatus : MonoBehaviour {
 	public float currentWeight = 0.0f;
 	public float weightLimit = 20.0f;
 
+	// Coin stats
+	public int coinCount = 0;
+	public int maxCoinCount = 100; 
+
 	// Time left until player dies from the plague
 	public float timeLeft = 10.0f;
 
@@ -41,7 +45,7 @@ public class PlayerStatus : MonoBehaviour {
 		}
 
 		// Use 1 health potion to replenish health and gain a little bit of time
-		if (Input.GetKeyDown (KeyCode.E) && currentHealthPotionCount > 0) {
+		if (Input.GetKeyDown (KeyCode.F) && currentHealthPotionCount > 0) {
 			currentHealthPotionCount -= 1;
 			playerHealth += 10;
 			timeLeft += 25;

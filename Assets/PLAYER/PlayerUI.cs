@@ -13,6 +13,8 @@ public class PlayerUI : MonoBehaviour {
 	public Text potionCountText;
 	// Text for displaying Time left
 	public Text timeText;
+	// Text for displaying Coin count
+	public Text coinText;
 	// Text for isplaying death message
 	public Text deathText;
 
@@ -41,7 +43,9 @@ public class PlayerUI : MonoBehaviour {
 		weightText.text = "Weight: " + p.currentWeight;
 		timeText.text = "Time: " + p.timeLeft;
 		potionCountText.text = "Potions: " + p.currentHealthPotionCount;
+		coinText.text = "Coin: " + p.coinCount;
 
+		// Show Game Over message if player is dead
 		if (p.isDead == true)
 			Death ();
 	}
